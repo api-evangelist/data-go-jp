@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://www.data.go.jp/data/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/data-go-jp-domain-security.yml
   - type: Website
     url: https://www.data.go.jp/data
   - type: Documentation
